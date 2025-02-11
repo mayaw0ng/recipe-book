@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.jost> {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#heading {
+    text-align: center;
+    font-family: Chonk;
+    font-size: 300%;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+body {
+    background-image: url("IMG_6442.jpeg");
+    background-size: 100%;
+}
+
+#container {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    font-family: Chonk;
+    font-size: 200%;
+}
+
+#savory {
+    width: 50%;
+    background-color: #bcc9d6;
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+
+#savory-title {
+    font-family: Chonk;
+    font-size: 200%;
+    text-shadow: -1px ;
+    text-shadow: 0 0 40px white;
+}
+
+#savory-list {
+    font-family: "Jost";
+    font-size: medium;
+}
+
+#sweet {
+    width: 50%;
+    background-color: #fae8a2;
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+
+#sweet-title {
+    font-family: Chonk;
+    font-size: 200%;
+    text-shadow: 0 0 40px white;
+}
+
+#sweet-list {
+    font-family: "Jost";
+    font-size: medium;
+}
